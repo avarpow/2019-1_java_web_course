@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - w2_1",
+            "request": "launch",
+            "mainClass": "w2_1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyInteger",
+            "request": "launch",
+            "mainClass": "MyInteger"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - w1_3",
             "request": "launch",
             "mainClass": "w1_3"

@@ -68,8 +68,9 @@ body {
 #comment_right {
   width: 47%;
   margin: 2% 2% 2% 1%;
-  float: left;
+  float: left;   
 }
+
 
 #comment_left {
   width: 47%;
@@ -139,9 +140,11 @@ dd {
   right: -5px;
   bottom: 0;
 }
-.author{
-    margin-bottom: 32px;
+
+.author {
+  margin-bottom: 32px;
 }
+
 .author img {
   float: left;
 }
