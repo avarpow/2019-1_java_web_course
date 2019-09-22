@@ -1,0 +1,151 @@
+h1 {
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: center;
+  font-family: Tahoma, Verdana, sans-serif;
+
+}
+
+body {
+  background-image: url(background.png);
+  background-repeat: repeat;
+  font-size: 8pt;
+  font-family: Verdana, Tahoma, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+#content {
+  max-width: 800px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: gray;
+  margin-right: 6px;
+  margin: 0 auto;
+
+}
+
+#banner {
+  background-image: url(bannerbackground.png);
+  background-repeat: repeat;
+  max-height: 50px;
+  text-align: center;
+}
+
+#movie_head {
+  height: 83px;
+  background-image: url("rottenbackground.png");
+  background-repeat: repeat-x;
+}
+
+#movie_head img {
+  float: left;
+}
+
+#info_block {
+  display: block;
+  width: 250px;
+  float: right;
+  background-color: #A2B964;
+  font-family: "Arial", "serif";
+}
+
+#movie_info {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#comment_block {
+  width: 550px;
+
+}
+
+#comment_block img {
+  float: left;
+
+}
+
+#comment_right {
+  width: 47%;
+  margin: 2% 2% 2% 1%;
+  float: left;
+}
+
+#comment_left {
+  width: 47%;
+  margin: 2% 1% 2% 2%;
+  float: left;
+}
+
+dt {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 2px;
+
+}
+
+q {
+  display: inline;
+
+}
+
+dd {
+  display: block;
+  margin-inline-start: 40px;
+  line-height: 1.3em;
+  margin-bottom: 1em;
+}
+
+.comments {
+  background-color: #E1D697;
+  font-size: 8pt;
+  font-weight: bold;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  padding: 8pt;
+  margin: 0 0 0 0;
+}
+
+#percentage {
+  color: red;
+  font-size: 48pt;
+  font-weight: bold;
+  float: left;
+  margin-left: 4px;
+  margin-top: 5px;
+  margin-right: 4px;
+}
+
+#reviews {
+  float: left;
+  color: white;
+  margin-top: 58px;
+
+}
+
+#pages {
+  clear: both;
+  padding: 5px;
+  background-color: #A2B964;
+  margin: 0 0 0 0;
+  text-align: center;
+}
+
+#checker {
+  border-style: none;
+  position: fixed;
+  float: right;
+  right: -5px;
+  bottom: 0;
+}
+.author{
+    margin-bottom: 32px;
+}
+.author img {
+  float: left;
+}
+
+span {
+  font-style: italic;
+}
