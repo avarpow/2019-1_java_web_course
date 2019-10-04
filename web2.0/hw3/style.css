@@ -14,23 +14,99 @@ ul {
     left: 250px;
     width: 30px;
     height: 30px;
+}
+#start{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
     background-color: rgba(152, 158, 209, 1);
     border-radius: 50%;
-    border-style: solid;
-    border-color: rgba(152, 158, 209, 1);
+    opacity: 100;
 }
-
+#end{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transition-duration: .5s;
+}
 .info {
-    font-size: 8px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color: rgb(126,126,126);
+    height: 10px;
+    width:10px;
+    border-radius: 50%;
+    opacity: 0;
+    transition-duration: .5s;
+}
+.page.user{
+    display: block;
+    position: absolute;
+    top:8px;
+    left:40px;
+    color:white;
+}
+.page.user span{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+.page.comment{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    color:white;
+    font-weight:600;
+    font-size:25px;
+}
+.page.comment span{
+    position: absolute;
+    top: -5px;
+    left: 35px;
+}
+.mine.posted{
+    position: absolute;
+    top: 75px;
+    left: 20px;
+    color:rgb(75,210,139);
+}
+.mine.posted span{
+    position: absolute;
+    left: 27px;
+    font-weight: bold;
+}
+.mine.like{
+    position: absolute;
+    top: 75px;
+    left:65px;
+    color:rgb(75,210,139);
+}
+.mine.like span{
+    position: absolute;
+    left: 30px;
+    font-weight: bold;
 }
 #white-icon {
     position: absolute;
     top: 2px;
     left: 2px;
-
+    opacity: 100;
+    
 }
 #green-icon {
-    
+    position: absolute;
+    top: 5px;
+    left: -30px;
+    width: 27px;
+    left: 2px;
+    opacity: 0;
+    transition-duration: .5s;
 }
 #control-ring-container{
     font-size: 8px;
@@ -40,12 +116,31 @@ ul {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     background-color: rgb(104,104,104);
+    text-align: center;
+    opacity: 0;
+    transition-duration: .5s
+}
+#control-ring img{
+    padding-top: 5px;
+}
+.unread{
+    position: absolute;
+    top: -5px;
+    left: 18px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: red;
     transition-duration: .5s;
     opacity: 0;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 11px;
 }
 #bottom-positioner:hover .mask.button{
     top: -40.150350544573215px;
@@ -72,5 +167,35 @@ ul {
     left: 18.11733315717642px;
     opacity: 100;
 }
+#bottom-positioner:hover .unread{
+    opacity: 100;
+}
+#bottom-positioner:hover #end{
+    top:-15px;
+    left:-15px;
+    height: 60px;
+    width: 60px;
+    background-color: rgba(48, 63, 159, 1);
+    opacity: 100;
+}
+#bottom-positioner:hover #white-icon{
+    opacity: 0;
+}
+#bottom-positioner:hover #green-icon{
+    opacity: 100;
+    top: 15px;
+    left: 10px;
+    width: 45px;
+}
 
+#bottom-positioner:hover .info{
+    position: absolute;
+    top: -150px;
+    left: -45px;
+    background-color: rgb(126,126,126);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    opacity: 100; 
 
+}
