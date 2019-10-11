@@ -16,6 +16,7 @@ function on() {
     open = !open;
 }
 function equal_click() {
+    document.getElementById('equal').focus();
     s=document.getElementById("expression").value;
     try {
         var t = eval(s);
