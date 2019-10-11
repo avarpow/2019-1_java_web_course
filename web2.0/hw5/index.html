@@ -8,37 +8,42 @@
     </head>
     <body>
         <div id="framework" >
-            <input id="expression" name="exp"\>
+            <input id="expression" name="exp" \>
             <input id="result" name="res"\>
+            <div id="solor">
+                <img src="solor.jpg" alt="x"\>
+                <span>budeli</span>
+                <button id="on" type="button" onclick="on()"><span>ON/OFF</span></button>
+            </div>
             <div id="layel-1" class="layel">            
-            <button id="num7" type="button" >7</button>
-            <button id="num8" type="button" >8</button>
-            <button id="num9" type="button" >9</button>
-            <button id="division" type="button" >/</button>
+            <button id="num7" type="button" onclick="num7_click()">7</button>
+            <button id="num8" type="button" onclick="num8_click()">8</button>
+            <button id="num9" type="button" onclick="num9_click()">9</button>
+            <button id="division" type="button" onclick="division_click()">/</button>
             </div>
             <div id="layel-2" class="layel">            
-            <button id="num4" type="button" >4</button>
-            <button id="num5" type="button" >5</button>
-            <button id="num6" type="button" >6</button>
-            <button id="multiply" type="button" >*</button>
+            <button id="num4" type="button" onclick="num4_click()">4</button>
+            <button id="num5" type="button" onclick="num5_click()">5</button>
+            <button id="num6" type="button" onclick="num6_click()">6</button>
+            <button id="multiply" type="button" onclick="multiply_click()">*</button>
             </div>
             <div id="layel-3" class="layel">            
-            <button id="num1" type="button" >1</button>
-            <button id="num2" type="button" >2</button>
-            <button id="num3" type="button" >3</button>
-            <button id="subduction" type="button" >-</button>
+            <button id="num1" type="button" onclick="num1_click()">1</button>
+            <button id="num2" type="button" onclick="num2_click()">2</button>
+            <button id="num3" type="button" onclick="num3_click()">3</button>
+            <button id="subduction" type="button" onclick="subduction_click()">-</button>
             </div>
             <div id="layel-4" class="layel">            
-            <button id="num0" type="button" >0</button>
-            <button id="point" type="button" >.</button>
-            <button id="withdraw" type="button" > ← </button>
-            <button id="plus" type="button" >+</button>
+            <button id="num0" type="button" onclick="num0_click()">0</button>
+            <button id="point" type="button" onclick="point_click()">.</button>
+            <button id="withdraw" type="button" onclick="withdraw()"> ← </button>
+            <button id="plus" type="button" onclick="plus_click()">+</button>
             </div>
             <div id="layel-5" class="layel">            
-            <button id="left-bracket" type="button" >(</button>
-            <button id="right-bracket" type="button" >)</button>
-            <button id="CE" type="button" >CE</button>
-            <button id="equal" type="button" >=</button>
+            <button id="left_bracket" type="button" onclick="left_bracket_click()">(</button>
+            <button id="right_bracket" type="button" onclick="right_bracket_click()">)</button>
+            <button id="CE" type="button" onclick="CE_click()">CE</button>
+            <button id="equal" type="button" onclick="equal_click()" >=</button>
             </div>
     
         </div>
