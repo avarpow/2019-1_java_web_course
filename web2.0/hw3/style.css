@@ -23,7 +23,7 @@ ul {
     height: 30px;
     background-color: rgba(152, 158, 209, 1);
     border-radius: 50%;
-    opacity: 100;
+    opacity: 1;
 }
 #end{
     position: absolute;
@@ -94,9 +94,9 @@ ul {
 }
 #white-icon {
     position: absolute;
-    top: 2px;
+    top: 4px;
     left: 2px;
-    opacity: 100;
+    opacity: 1;
     
 }
 #green-icon {
@@ -145,30 +145,30 @@ ul {
 #bottom-positioner:hover .mask.button{
     top: -40.150350544573215px;
     left: -57.340643100229435px;
-    opacity: 100;
+    opacity: 1;
 }
 #bottom-positioner:hover .history.button{
     top: 0px;
     left: -70.0px;
-    opacity: 100;
+    opacity: 1;
 }
 #bottom-positioner:hover .message.button{
     top: 40.15035054457321px;
     left: -57.34064310022944px;
-    opacity: 100;
+    opacity: 1;
 }
 #bottom-positioner:hover .setting.button{
     top: 65.77848345501357px;
     left: -23.941410032796856px;
-    opacity: 100;
+    opacity: 1;
 }
 #bottom-positioner:hover .sign.button{
     top: 67.61480784023479px;
     left: 18.11733315717642px;
-    opacity: 100;
+    opacity: 1;
 }
 #bottom-positioner:hover .unread{
-    opacity: 100;
+    opacity: 1;
 }
 #bottom-positioner:hover #end{
     top:-15px;
@@ -176,13 +176,13 @@ ul {
     height: 60px;
     width: 60px;
     background-color: rgba(48, 63, 159, 1);
-    opacity: 100;
+    opacity: 1;
 }
 #bottom-positioner:hover #white-icon{
     opacity: 0;
 }
 #bottom-positioner:hover #green-icon{
-    opacity: 100;
+    opacity: 1;
     top: 15px;
     left: 10px;
     width: 45px;
@@ -196,6 +196,6 @@ ul {
     height: 120px;
     width: 120px;
     border-radius: 50%;
-    opacity: 100; 
+    opacity: 1; 
 
 }
