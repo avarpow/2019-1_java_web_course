@@ -1,0 +1,164 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,h2{
+    text-align: center;
+}
+#bottom{
+    margin: auto;
+    width: 70%;
+}
+.wall{
+    background-color: rgb(238,238,238);
+    border-color: black;
+    border-style: solid;
+}
+
+.road{
+    background-color: rgb(255,255,255);
+    border-color: black;
+    border-style: solid;
+}
+#game_fream{
+    width:600px;
+    height: 350px;
+    margin: auto;
+}
+#wall_1_1{
+    position: relative;
+    top:0px;
+    left:0px;
+    width: 500px;
+    height: 50px;
+    border-width: 1px 1px 0 1px;
+}
+#wall_2_1{
+    position: relative;
+    top:0px;
+    width: 150px;
+    height: 50px;
+    border-width: 0 1px 0 1px;
+}
+#wall_2_2{
+    position: relative;
+    top:-50px;
+    left: 150px;
+    width: 200px;
+    height: 50px;
+    border-width: 1px 1px 0 1px;
+}
+#wall_2_3{
+    position: relative;
+    top:-101px;
+    left: 350px;
+    width: 150px;
+    height: 50px;
+    border-width: 0 1px 0 1px;
+}
+#wall_3_1{
+    position: relative;
+    top:-101px;
+    left: 0px;
+    width: 150px;
+    height: 100px;
+    border-width: 0 1px 1px 1px;
+}
+#wall_3_2{
+    position: relative;
+    top:-201px;
+    left: 150px;
+    width: 50px;
+    height: 100px;
+    border-width: 0 1px 0 1px;
+}
+#wall_3_3{
+    position: relative;
+    top:-301px;
+    left: 200px;
+    width: 100px;
+    height: 100px;
+    border-width: 1px 1px 0 1px;
+}
+#wall_3_4{
+    position: relative;
+    top:-402px;
+    left: 300px;
+    width: 50px;
+    height: 100px;
+    border-width: 0 1px 0 1px;
+}
+#wall_3_5{
+    position: relative;
+    top:-503px;
+    left: 350px;
+    width: 150px;
+    height: 100px;
+    border-width: 0 1px 1px 1px;
+}
+#wall_4_1{
+    position: relative;
+    top:-503px;
+    left: 0px;
+    width: 200px;
+    height: 50px;
+    border-width: 0 1px 1px 0;
+}
+#wall_4_2{
+    position: relative;
+    top:-553px;
+    left: 200px;
+    width: 100px;
+    height: 50px;
+    border-width: 0 1px 0 1px;
+}
+#wall_4_3{
+    position: relative;
+    top:-604px;
+    left: 300px;
+    width: 200px;
+    height: 50px;
+    border-width: 0 0 1px 1px;
+}
+#wall_5_1{
+    position: relative;
+    top:-604px;
+    left: 0px;
+    width: 500px;
+    height: 50px;
+    border-width: 0 1px 1px 1px;
+}
+
+#S{
+    position: relative;
+    top:-704px;
+    left: 0px;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    background-color: rgb(130,255,130);
+    border: 1px solid black;
+}
+#E{
+    position: relative;
+    top:-746px;
+    left: 450px;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    background-color: rgb(134,132,255);
+    border: 1px solid black;
+}
+#E span,#S span{
+    position: relative;
+    top:5px;
+    font-size: 35px;
+}
+
+#wall_example {
+    width:100px;
+    height: 30px;
+    margin: 15px auto;
+    background-color: rgb(238,238,238);
+    border: 1px solid black;
+}
+
