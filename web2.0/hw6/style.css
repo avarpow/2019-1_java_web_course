@@ -19,9 +19,16 @@ h1,h2{
     border-color: black;
     border-style: solid;
 }
-#game_fream{
-    width:600px;
+.warn_wall{
+    background-color: red;
+}
+#outside{
+    width: 100%;
     height: 350px;
+}
+#game_fream{
+    width:500px;
+    height: 310px;
     margin: auto;
 }
 #wall_1_1{

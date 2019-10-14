@@ -4,30 +4,31 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="main.js"></script>
     <title>Game</title>
 </head>
 
 <body>
     <h1>The Amazing Mouse Maze!</h1>
     <h2>Move your mouse over the "S" to begin</h2>
-    <h2>Don't cheat, you should start from "S" and move to the "E" inside the maze!</h2>
-    <div id="game_fream">
-        <div id="wall_1_1" class="wall"></div>
-        <div id="wall_2_1" class="wall"></div>
-        <div id="wall_2_2" class="road"></div>
-        <div id="wall_2_3" class="wall"></div>
-        <div id="wall_3_1" class="wall"></div>
-        <div id="wall_3_2" class="road"></div>
-        <div id="wall_3_3" class="wall"></div>
-        <div id="wall_3_4" class="road"></div>
-        <div id="wall_3_5" class="wall"></div>
-        <div id="wall_4_1" class="road"></div>
-        <div id="wall_4_2" class="wall"></div>
-        <div id="wall_4_3" class="road"></div>
-        <div id="wall_5_1" class="wall"></div>
-        <div id="S"><span>S</span></div>
-        <div id="E"><span>E</span></div>
+    <h2 id="game_tip">...</h2>
+    <div id="outside">
+        <div id="game_fream">
+            <div id="wall_1_1" class="wall"></div>
+            <div id="wall_2_1" class="wall"></div>
+            <div id="wall_2_2" class="road"></div>
+            <div id="wall_2_3" class="wall"></div>
+            <div id="wall_3_1" class="wall"></div>
+            <div id="wall_3_2" class="road"></div>
+            <div id="wall_3_3" class="wall"></div>
+            <div id="wall_3_4" class="road"></div>
+            <div id="wall_3_5" class="wall"></div>
+            <div id="wall_4_1" class="road"></div>
+            <div id="wall_4_2" class="wall"></div>
+            <div id="wall_4_3" class="road"></div>
+            <div id="wall_5_1" class="wall"></div>
+            <div id="S"><span>S</span></div>
+            <div id="E"><span>E</span></div>
+        </div>
     </div>
     <div id="bottom">
         <div class="bottom_text">
@@ -39,7 +40,7 @@
             Good luck!
         </div>
     </div>
-
+    <script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
