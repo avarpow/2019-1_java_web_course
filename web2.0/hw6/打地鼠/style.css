@@ -9,22 +9,25 @@ h1,h2{
 #outside{
     margin:auto;
     width: 400px;
-    height:500px;
+    height:350px;
 }
 #start{
     height: 26px;
     border-radius: 10%;
     border:1px solid rgb(200,200,200);
     background-color: white;
+    margin-bottom: 10px;
 }
 #time_label{
     float:right;
     font-size: 20px;
+    height: 26px;
+
 }
 #time{
     float: right;
     text-align: left;
-    width: 30px;
+    width: 50px;
     border: 1px solid rgb(200,200,200);
 }
 #game_state{
@@ -36,15 +39,17 @@ h1,h2{
 #score_label{
     float:right;
     font-size:20px;
+    height: 26px;
+
 }
 #score{
     float:right;
+    width: 50px;
     border: 1px solid rgb(200,200,200);
 }
 #game_fream{
     position: relative;
     top:50px;
-    background-color: beige;
     width:350px;
     height:250px;
     margin: auto;
@@ -53,10 +58,19 @@ h1,h2{
     width:350px;
 }
 .hole{
+    border-radius: 50%;
+    border:20px solid blue;
     width:20px;
     height: 17px;
     margin:7px 5px 7px 5px;
 }
 .target{
     
+}
+#bottom span{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+#bottom li{
+    font-family: 'Courier New', Courier, monospace;
 }
