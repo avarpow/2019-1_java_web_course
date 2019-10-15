@@ -59,13 +59,9 @@ h1,h2{
 }
 .hole{
     border-radius: 50%;
-    border:20px solid blue;
     width:20px;
     height: 17px;
     margin:7px 5px 7px 5px;
-}
-.target{
-    
 }
 #bottom span{
     font-family: 'Courier New', Courier, monospace;
