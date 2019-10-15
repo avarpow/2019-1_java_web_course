@@ -1,0 +1,62 @@
+*{
+    font-family: "Century Gothic";
+}
+h1,h2{
+    text-align: center;
+    font-weight: normal;
+}
+
+#outside{
+    margin:auto;
+    width: 400px;
+    height:500px;
+}
+#start{
+    height: 26px;
+    border-radius: 10%;
+    border:1px solid rgb(200,200,200);
+    background-color: white;
+}
+#time_label{
+    float:right;
+    font-size: 20px;
+}
+#time{
+    float: right;
+    text-align: left;
+    width: 30px;
+    border: 1px solid rgb(200,200,200);
+}
+#game_state{
+    float:left;
+    height:24px;
+    width: 150px;
+    border: 1px solid rgb(200,200,200);
+}
+#score_label{
+    float:right;
+    font-size:20px;
+}
+#score{
+    float:right;
+    border: 1px solid rgb(200,200,200);
+}
+#game_fream{
+    position: relative;
+    top:50px;
+    background-color: beige;
+    width:350px;
+    height:250px;
+    margin: auto;
+}
+#game_fream > hr{
+    width:350px;
+}
+.hole{
+    width:20px;
+    height: 17px;
+    margin:7px 5px 7px 5px;
+}
+.target{
+    
+}
