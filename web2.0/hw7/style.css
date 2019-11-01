@@ -1,0 +1,120 @@
+h1 {
+    text-align: center;
+}
+
+#game_box {
+    width: 512px;
+    height: 512px;
+    margin: auto;
+    background-color: white;
+}
+
+#restart {
+    margin: auto;
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+}
+
+#btn_restart {
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 5px #888888;
+    background-color: #4087F1;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.box {
+    background-image: url(sou.jpg);
+    width: 128px;
+    height: 128px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transition-duration: 0.3s;
+}
+.box:hover{
+    transform: scale(1.1);
+
+}
+#btn_1 {
+    background-image: none;
+    background-color: white;
+    border: 0;
+}
+
+#btn_2 {
+    background-position: 384px 512px;
+}
+
+#btn_3 {
+    
+    background-position: 256px 512px;
+}
+
+#btn_4 {
+    
+    background-position: 128px 512px;
+}
+
+#btn_5 {
+    
+    background-position: 512px 384px;
+}
+
+#btn_6 {
+    
+    background-position: 384px 384px;
+}
+
+#btn_7 {
+    
+    background-position: 256px 384px;
+}
+
+#btn_8 {
+    
+    background-position: 128px 384px;
+}
+
+#btn_9 {
+    
+    background-position: 512px 256px;
+}
+
+#btn_10 {
+    
+    background-position: 384px 256px;
+}
+
+#btn_11 {
+    
+    background-position: 256px 256px;
+}
+
+#btn_12 {
+    
+    background-position: 128px 256px;
+}
+
+#btn_13 {
+    
+    background-position: 512px 128px;
+}
+
+#btn_14 {
+    
+    background-position: 384px 128px;
+}
+
+#btn_15 {
+    
+    background-position: 256px 128px;
+}
+
+#btn_16 {
+    
+    background-position: 128px 128px;
+}
