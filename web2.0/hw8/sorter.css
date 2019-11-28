@@ -1,0 +1,52 @@
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+h1, h2 {
+    font-size: 17px;
+    font-weight: bold;
+}
+.content {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#todo {
+    width: 350px;
+}
+#staff {
+    width: 300px;
+}
+table, tr, th, td {
+    padding: 2px;
+    border: 1px solid rgb(196, 196, 196);
+    border-collapse: collapse;
+}
+th {
+    text-align: left;
+    color: white;
+    background-color: rgb(3, 26, 127);
+}
+.triangle {
+    display: inline-block;
+    border: none;
+    float: right;
+    width: 15px;
+    height: 15px;
+}
+.ascend {
+    background: url('ascend.png') center no-repeat;
+    background-size: contain;
+}
+.descend {
+    background: url('descend.png') center no-repeat;
+    background-size: contain;
+}
+.alternate {
+    background-color: rgb(235, 235, 235);
+}
+.active{
+    background-color: rgb(150, 150, 255);
+}
