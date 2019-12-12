@@ -1,0 +1,29 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        title 注册
+        link(rel='stylesheet' type="text/css" href='style.css')
+    
+    body
+        h1 注册用户
+        form(method='post')
+            div.username
+                label(for='username') 用户名
+                input(id='username' name='username')
+            
+            div.sid
+                label(for='sid') 学号
+                input(id='sid' name='sid')
+
+            div.phone
+                label(for='phone') 电话 
+                input(id='phone' name='phone')
+
+            div.email
+                label(for='email') 邮箱 
+                input(id='email' name='email')
+            
+            div.buttons
+                input.button.reset(type='reset' value="清空")
+                input.button.submit(type='submit' value='提交')
